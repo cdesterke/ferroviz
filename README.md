@@ -62,7 +62,7 @@ mmvol(resultmm,ferrdbmm,color="grey",size=16,x=0.25,label=1.5)
 ![res](https://github.com/cdesterke/ferroviz/blob/main/volmm.png)
 
 
-### barplot of human regulation for ferroptosis related genes
+### barplot of murine regulation for ferroptosis related genes
 
 ```r
 library(ferroviz)
@@ -73,7 +73,7 @@ barplotmm(resultmm,ferrdbmm,fc=0.25,size=16)
 ![res](https://github.com/cdesterke/ferroviz/blob/main/barplotmm.png)
 
 
-### output human significant ferroptosis related genes
+### output murine significant ferroptosis related genes
 
 ```r
 library(ferroviz)
