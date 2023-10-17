@@ -23,7 +23,7 @@ hsvol(resulths,ferrdbhs,color="grey",size=16,x=0.25,label=1.5)
 ![res](https://github.com/cdesterke/ferroviz/blob/main/volhs.png)
 
 
-### barplot of human rgulation for ferroptosis related genes
+### barplot of human regulation for ferroptosis related genes
 
 ```r
 library(ferroviz)
@@ -32,3 +32,15 @@ data(ferrdbhs)
 barploths(resulths,ferrdbhs,fc=0.25,size=16)
 ```
 ![res](https://github.com/cdesterke/ferroviz/blob/main/barploths.png)
+
+
+### output human significant ferroptosis related genes
+
+```r
+library(ferroviz)
+data(resulths)
+data(ferrdbhs)
+df<-lisths(resulths,ferrdbhs,fc=0.25)
+df
+```
+![res](https://github.com/cdesterke/ferroviz/blob/main/lisths.png)
