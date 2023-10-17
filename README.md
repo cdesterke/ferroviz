@@ -48,3 +48,39 @@ df<-lisths(resulths,ferrdbhs,fc=0.25)
 df
 ```
 ![res](https://github.com/cdesterke/ferroviz/blob/main/lisths.png)
+
+
+# MURINE ANALYSES
+
+### volcanoplot of murine limma output (drivers in red and suppressors in blue)
+```r
+library(ferroviz)
+data(resultmm)
+data(ferrdbmm)
+mmvol(resultmm,ferrdbmm,color="grey",size=16,x=0.25,label=1.5)
+```
+![res](https://github.com/cdesterke/ferroviz/blob/main/volmm.png)
+
+
+### barplot of human regulation for ferroptosis related genes
+
+```r
+library(ferroviz)
+data(resultmm)
+data(ferrdbmm)
+barplotmm(resultmm,ferrdbmm,fc=0.25,size=16)
+```
+![res](https://github.com/cdesterke/ferroviz/blob/main/barplotmm.png)
+
+
+### output human significant ferroptosis related genes
+
+```r
+library(ferroviz)
+data(resultmm)
+data(ferrdbmm)
+df<-listmm(resultmm,ferrdbmm,fc=0.10)
+df
+```
+![res](https://github.com/cdesterke/ferroviz/blob/main/listmm.png)
+
