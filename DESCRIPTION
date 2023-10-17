@@ -1,0 +1,18 @@
+Package: ferroviz
+Type: Package
+Title: ferroviz package allows to highlight driver and suppressor ferroptosis genes
+        in transcriptome differential expression gene analysis output from limma
+        algorithm
+Version: 1.0.0
+Author: Christophe Desterke
+Maintainer: The package maintainer <christophe.desterke@inserm.fr>
+Description: ferroviz package allows to highlight driver and suppressor ferroptosis genes
+        in transcriptome differential expression gene analysis output from limma
+        algorithm.
+        Ferroptosis related genes from ferrdbV2 were converted in orthologues with Biomart.
+        This package could work for Mus musculus and Homo sapiens species.
+License: GNU
+Imports: dplyr, ggplot2, tidyr, ggrepel
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
