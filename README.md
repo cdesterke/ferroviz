@@ -11,7 +11,7 @@ library(devtools)
 install_github("cdesterke/ferroviz")
 ```
 ### description
-ferroviz is a R-package based on ferrdb v2 database (Zhou et al. 2023) which highlight ferroptosis related in a differential expressed gene analysis output from limma algorithm. With biomart gene conversion between Homo sapiens and Mus musculus (Cunningham et al. 2022) is possible to applied analyses to these two species.
+ferroviz is a R-package based on ferrdb v2 database(Zhou et al. 2023) which highlight ferroptosis related in a differential expressed gene analysis output from limma algorithm. With biomart gene conversion between Homo sapiens and Mus musculus(Cunningham et al. 2022) possible to applied analyses to these two species.
 
 
 # HUMAN ANALYSES
