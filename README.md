@@ -15,7 +15,7 @@ ferroviz is a R-package based on ferrdb v2 database which highlight ferroptosis 
 
 
 # HUMAN ANALYSES
-
+For human analyses taken as example to employ ferroviz package, transcriptome RNA-seq from dataset GSE173905 was processed (Li P. 2022).
 
 ### volcanoplot of human limma output (drivers in red and suppressors in blue)
 ```r
@@ -84,3 +84,8 @@ df
 ```
 ![res](https://github.com/cdesterke/ferroviz/blob/main/listmm.png)
 
+### REFERENCES
+
+> 	Li P, Lin Q, Sun S, Yang N et al. Inhibition of cannabinoid receptor type 1 sensitizes triple-negative breast cancer cells to ferroptosis via regulating fatty acid metabolism. Cell Death Dis 2022 Sep 21;13(9):808. PMID: 36130940
+
+> 
