@@ -11,7 +11,7 @@ library(devtools)
 install_github("cdesterke/ferroviz")
 ```
 ### description
-ferroviz is a R-package based on ferrdb v2 database (Zhou et al. 2023) which highlight ferroptosis related in a differential expressed gene analysis output from limma algorithm. With biomart gene conversion between Homo sapiens and Mus musculus (Cunningham et al. 2022) possible to applied analyses to these two species.
+ferroviz is a R-package based on ferrdb v2 database (Zhou et al. 2023) which highlight ferroptosis related genes in a differential expressed gene analysis between two experimental conditions output from the limma algorithm (Ritchie et al. 2015). With biomart gene conversion between Homo sapiens and Mus musculus (Cunningham et al. 2022) possible to applied analyses to these two species.
 
 
 # HUMAN ANALYSES
@@ -87,6 +87,8 @@ df
 ### REFERENCES
 
 > Zhou, Nan, Xiaoqing Yuan, Qingsong Du, Zhiyu Zhang, Xiaolei Shi, Jinku Bao, Yuping Ning, et Li Peng. 2023. « FerrDb V2: Update of the Manually Curated Database of Ferroptosis Regulators and Ferroptosis-Disease Associations ». Nucleic Acids Research 51 (D1): D571‑82. https://doi.org/10.1093/nar/gkac935.
+
+> Ritchie, Matthew E., Belinda Phipson, Di Wu, Yifang Hu, Charity W. Law, Wei Shi, et Gordon K. Smyth. 2015. « Limma Powers Differential Expression Analyses for RNA-Sequencing and Microarray Studies ». Nucleic Acids Research 43 (7): e47. https://doi.org/10.1093/nar/gkv007.
 
 > Cunningham, Fiona, James E Allen, Jamie Allen, Jorge Alvarez-Jarreta, M Ridwan Amode, Irina M Armean, Olanrewaju Austine-Orimoloye, et al. 2022. « Ensembl 2022 ». Nucleic Acids Research 50 (D1): D988‑95. https://doi.org/10.1093/nar/gkab1049.
 
