@@ -15,7 +15,7 @@ ferroviz is a R-package based on ferrdb v2 database (Zhou et al. 2023) which hig
 
 
 # HUMAN ANALYSES
-For human analyses taken as example to employ ferroviz package, transcriptome RNA-seq from dataset GSE173905 was processed (Li P. 2022). During these transcriptome experiments, MDA-MB-231 cells were treated or not with erastin. FPKM were transformed in pseudocounts before differential expressed gene analysis with limma R-package. Output results of limma algorithm was treated with ferroviz package for downstream analyses foccused on ferroptosis related genes.
+For human analyses taken as example to employ ferroviz package, transcriptome RNA-seq from dataset GSE173905 was processed (Li P. 2022). During these transcriptome experiments, MDA-MB-231 cells were treated or not with erastin. FPKM were transformed in pseudocounts before differential expressed gene analysis with limma R-package. Output results from limma algorithm were treated with ferroviz package for downstream analyses foccused on ferroptosis related genes.
 
 ### volcanoplot of human limma output (drivers in red and suppressors in blue)
 ```r
@@ -51,6 +51,8 @@ df
 
 
 # MURINE ANALYSES
+
+For murine analyses, RNA-seq raw counts from GSE166536 dataset were employed to highlight the regulation of ferroptosis related genes(Fox et al. 2021).
 
 ### volcanoplot of murine limma output (drivers in red and suppressors in blue)
 ```r
@@ -94,4 +96,4 @@ df
 
 > Li, Pengyun, Qiaohong Lin, Shiyang Sun, Ning Yang, Yu Xia, Shengjie Cao, Wenjuan Zhang, et al. 2022. « Inhibition of Cannabinoid Receptor Type 1 Sensitizes Triple-Negative Breast Cancer Cells to Ferroptosis via Regulating Fatty Acid Metabolism ». Cell Death & Disease 13 (9): 808. https://doi.org/10.1038/s41419-022-05242-5.
 
-> 
+> Fox, Gregory C., Xinming Su, Jennifer L. Davis, Yalin Xu, Kristin A. Kwakwa, Michael H. Ross, Francesca Fontana, et al. 2021. « Targeted Therapy to Β3 Integrin Reduces Chemoresistance in Breast Cancer Bone Metastases ». Molecular Cancer Therapeutics 20 (6): 1183‑98. https://doi.org/10.1158/1535-7163.MCT-20-0931.
