@@ -11,7 +11,7 @@ library(devtools)
 install_github("cdesterke/ferroviz")
 ```
 ### description
-ferroviz is a R-package based on ferrdb v2 database(Zhou et al. 2023) which highlight ferroptosis related in a differential expressed gene analysis output from limma algorithm. With biomart gene conversion between Homo sapiens and Mus musculus(Cunningham et al. 2022) possible to applied analyses to these two species.
+ferroviz is a R-package based on ferrdb v2 database (Zhou et al. 2023) which highlight ferroptosis related in a differential expressed gene analysis output from limma algorithm. With biomart gene conversion between Homo sapiens and Mus musculus (Cunningham et al. 2022) possible to applied analyses to these two species.
 
 
 # HUMAN ANALYSES
@@ -90,6 +90,6 @@ df
 
 > Cunningham, Fiona, James E Allen, Jamie Allen, Jorge Alvarez-Jarreta, M Ridwan Amode, Irina M Armean, Olanrewaju Austine-Orimoloye, et al. 2022. « Ensembl 2022 ». Nucleic Acids Research 50 (D1): D988‑95. https://doi.org/10.1093/nar/gkab1049.
 
-> 	Li P, Lin Q, Sun S, Yang N et al. Inhibition of cannabinoid receptor type 1 sensitizes triple-negative breast cancer cells to ferroptosis via regulating fatty acid metabolism. Cell Death Dis 2022 Sep 21;13(9):808. PMID: 36130940
+> Li, Pengyun, Qiaohong Lin, Shiyang Sun, Ning Yang, Yu Xia, Shengjie Cao, Wenjuan Zhang, et al. 2022. « Inhibition of Cannabinoid Receptor Type 1 Sensitizes Triple-Negative Breast Cancer Cells to Ferroptosis via Regulating Fatty Acid Metabolism ». Cell Death & Disease 13 (9): 808. https://doi.org/10.1038/s41419-022-05242-5.
 
 > 
