@@ -52,7 +52,7 @@ df
 
 # MURINE ANALYSES
 
-For murine analyses, RNA-seq raw counts from GSE166536 dataset were employed to highlight the regulation of ferroptosis related genes(Fox et al. 2021).
+For murine analyses, RNA-seq raw counts from GSE166536 dataset were employed to highlight the regulation of ferroptosis related genes (Fox et al. 2021). During these transcriptome experiments 4T1 cells were treated or not with 10nM docetaxel 24hr. Raw counts were voom transformed with EdgeR R-package (Robinson, McCarthy, et Smyth 2010) before differential expressed gene analysis with limma R-package. Output results from limma algorithm were treated with ferroviz package for downstream analyses foccused on ferroptosis related genes.
 
 ### volcanoplot of murine limma output (drivers in red and suppressors in blue)
 ```r
@@ -97,3 +97,6 @@ df
 > Li, Pengyun, Qiaohong Lin, Shiyang Sun, Ning Yang, Yu Xia, Shengjie Cao, Wenjuan Zhang, et al. 2022. « Inhibition of Cannabinoid Receptor Type 1 Sensitizes Triple-Negative Breast Cancer Cells to Ferroptosis via Regulating Fatty Acid Metabolism ». Cell Death & Disease 13 (9): 808. https://doi.org/10.1038/s41419-022-05242-5.
 
 > Fox, Gregory C., Xinming Su, Jennifer L. Davis, Yalin Xu, Kristin A. Kwakwa, Michael H. Ross, Francesca Fontana, et al. 2021. « Targeted Therapy to Β3 Integrin Reduces Chemoresistance in Breast Cancer Bone Metastases ». Molecular Cancer Therapeutics 20 (6): 1183‑98. https://doi.org/10.1158/1535-7163.MCT-20-0931.
+
+> Robinson, Mark D., Davis J. McCarthy, et Gordon K. Smyth. 2010. « edgeR: A Bioconductor Package for Differential Expression Analysis of Digital Gene Expression Data ». Bioinformatics (Oxford, England) 26 (1): 139‑40.
+
