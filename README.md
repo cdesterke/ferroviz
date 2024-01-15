@@ -86,6 +86,12 @@ df
 ```
 ![res](https://github.com/cdesterke/ferroviz/blob/main/listmm.png)
 
+## ferroviz package used in :
+
+> Christophe Desterke, Yao Xiang, Rima Elhage, Clémence Duruel, Yunhua Chang, Ahmed Hamaï 2023. "Ferroptosis Inducers Upregulate PD-L1 in Recurrent Triple-Negative Breast Cancer".Cancers (Basel). 2023 Dec 28;16(1):155. https://doi.org/10.3390/cancers16010155.
+
+
+
 ### REFERENCES
 
 > Zhou, Nan, Xiaoqing Yuan, Qingsong Du, Zhiyu Zhang, Xiaolei Shi, Jinku Bao, Yuping Ning, et Li Peng. 2023. « FerrDb V2: Update of the Manually Curated Database of Ferroptosis Regulators and Ferroptosis-Disease Associations ». Nucleic Acids Research 51 (D1): D571‑82. https://doi.org/10.1093/nar/gkac935.
