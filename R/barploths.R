@@ -45,6 +45,6 @@ barploths<-function(resulths,ferrdbhs,fc=0.10,size=16){
     geom_bar(position="fill")+
     geom_text(aes(label=after_stat(count)),stat='count',position=position_fill(vjust=0.5),size=8,colour="white")+
     scale_fill_manual(values=c("tomato", "royalblue"))+
-    xlab(paste0("Fold change:  ",fc)) + ylab("relative proportions")+theme_classic()+
+    xlab(paste0("LogFold change:  ",fc)) + ylab("relative proportions")+theme_classic()+
     theme(text = element_text(size = size))
 }
